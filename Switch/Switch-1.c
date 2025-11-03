@@ -5,6 +5,7 @@
 int main() {
 
     char grade='B';
+    
     switch (grade)
     {
     case 'A': printf("Distinction");
