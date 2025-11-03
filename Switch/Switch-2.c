@@ -1,3 +1,5 @@
+//A simple calculator using switch
+
 #include<stdio.h>
 
 int main() {
@@ -14,15 +16,15 @@ int main() {
         printf("Answer is: %d",ans);
         break;
 
-        case 'mul': ans=a*b;
+        case 'multiply': ans=a*b;
         printf("Answer is: %d",ans);
         break;
         
-        case 'div': ans=a/b;
+        case 'divide': ans=a/b;
         printf("Answer is: %d",ans);
         break;
         
-        case 'mod': ans=a%b;
+        case 'modulous': ans=a%b;
         printf("Answer is: %d",ans);
         break;
 

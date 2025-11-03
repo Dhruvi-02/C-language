@@ -5,4 +5,4 @@
 - The Switch statement test the value of a given variable or expression against a list of case values and when a match is found, a block of statement associated with that case is executed.The expression is an integer expression or characters. 
 
 # Topics included:
-- Multiple ways of writing the switch statement 
+- Multiple programs using the switch statement 

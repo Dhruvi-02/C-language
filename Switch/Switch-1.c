@@ -1,11 +1,12 @@
-//
+//Performance deciding using grade program using switch
 
 #include<stdio.h>
 
 int main() {
 
-    char grade='B';
-    
+    char grade;
+    printf("Enter your grade: ");
+
     switch (grade)
     {
     case 'A': printf("Distinction");
@@ -16,8 +17,10 @@ int main() {
         break;
     case 'D': printf("Pass");
         break;
+    case 'F': printf("Fail");
+        break;
     
-    default: printf("Fail");
+    default: printf("Invalid grade");
         break;
     }
     return 0;
