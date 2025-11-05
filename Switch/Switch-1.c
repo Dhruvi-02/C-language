@@ -1,4 +1,4 @@
-//Performance deciding using grade program using switch
+//Performance deciding using grade - program using switch
 
 #include<stdio.h>
 
