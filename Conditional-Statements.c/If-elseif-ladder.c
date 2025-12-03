@@ -1,4 +1,4 @@
-//To check whether the input alphabet is a vowel or consonant
+//Program to check whether the input alphabet is a vowel or consonant
 
 #include<stdio.h>
 
