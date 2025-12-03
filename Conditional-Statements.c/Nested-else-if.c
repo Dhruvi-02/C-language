@@ -1,4 +1,4 @@
-//To check out of three numbers, which number is largest
+//Program to check out of three numbers, which number is largest
 
 #include<stdio.h>
 
