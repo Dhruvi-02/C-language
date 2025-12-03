@@ -1,4 +1,4 @@
-#This folder contains codes of Looping Statements related concepts of C Programming Language
+# This folder contains codes of Looping Statements related concepts of C Programming Language
 
 - A looping statement also known as an iterative statement allows a script to repeatedly perform a task or set of tasks until a specified condition is met. Looping statements are useful when a series of tasks need to be performed on each member of a set.
 
