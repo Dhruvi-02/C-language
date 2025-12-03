@@ -6,5 +6,5 @@
 # Topics included
 - if => Executes code if a condition is true
 - else-if => Chooses between two possible actions
-- nested else-if => One if statement inside another for complex conditions
+- nested else-if => One if statement inside another, for complex conditions
 - if-elseif => Checks multiple conditions in sequence
