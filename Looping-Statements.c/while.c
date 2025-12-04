@@ -17,4 +17,5 @@ int main() {
         count ++;
     }
     printf("\nx = %f \nn = %d \nx to power n = %f\n",x,n,p);
+    return 0;
 }
