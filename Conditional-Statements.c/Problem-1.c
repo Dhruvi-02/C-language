@@ -18,10 +18,10 @@ int main() {
     avg = sum/4;
 
     if(avg>25) {
-        printf("Student pass in the exam");
+        printf("Student pass the exam");
     }
     else {
-        printf("Student fail in the exam");
+        printf("Student fail the exam");
     }
 
     return 0;
