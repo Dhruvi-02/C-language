@@ -19,4 +19,6 @@ int main() {
         printf("%d\n",i);
     }
     while(i<10);
+
+    return 0;
 }
