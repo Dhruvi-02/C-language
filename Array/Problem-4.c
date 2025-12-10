@@ -14,6 +14,11 @@ int main() {
         scanf("%d",&a[i]);
     }
 
+     if(N<0 || N==0) {
+        printf("Enter valid length");
+        return 1;
+    }
+
     printf("\nThe array is:\t ");
     for(i=0;i<N;i++) {
         printf("%d\t",a[i]);
