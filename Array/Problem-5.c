@@ -20,7 +20,7 @@ int main() {
         printf("%d\t",a[i]);
     }
 
-    printf("\nEnter the ith location: ");
+    printf("\nEnter the ith location where value is to be changed: ");
     scanf("%d",&idx);
     printf("\nEnter the value to be inserted: ");
     scanf("%d",&val);
