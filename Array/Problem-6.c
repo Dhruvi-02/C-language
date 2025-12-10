@@ -8,6 +8,11 @@ int main() {
     printf("Enter the length of array: ");
     scanf("%d",&N);
 
+     if(N<0 || N==0) {
+        printf("Enter valid length");
+        return 1;
+    }
+
     int a[N];
 
     printf("Enter the elements of array:\n");
