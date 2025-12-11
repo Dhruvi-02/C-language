@@ -19,7 +19,7 @@ int main() {
     return 1;
     }
     else if(m1>9 || n1>9 || m2>9 || n2>9) {
-        printf("Dimensions are too high, enter diensions between 1-9\n");
+        printf("Dimensions are too high, enter dimensions between 1-9\n");
         return 1;
     }
     else if(m1==0 || n1==0 || m2==0 || n2==0 || m1<=0 || n1<=0 || m2<=0 || n2<=0) {
