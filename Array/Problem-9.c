@@ -60,13 +60,15 @@ int main() {
         printf("\n");
     }
 
-    // Intitialising resultant matrix to zero
+    // Intitialising resultant matrix to zero => If this isn't done then any garbage value get stored initially which result in wrong output
 
     for(i=0;i<m1;i++) {
         for(j=0;j<n2;j++) {
             c[i][j] = 0;
         }
     }
+
+    //Performing multiplication and storing values in resultanat matrix
 
     for(i=0;i<m1;i++) {
         for(j=0;j<n2;j++) {
@@ -75,6 +77,8 @@ int main() {
             }
         }
     }
+
+    //Printing the resultant matrix
 
     printf("\nThe resultant matrix is:\n");
     for(i=0;i<m1;i++) {
