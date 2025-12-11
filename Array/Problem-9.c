@@ -15,7 +15,7 @@ int main() {
     scanf("%d",&n2);
 
     if(n1!=m2) {
-    printf("Multiplication can't be performed, columns of array-1 which is %d must be equal to rows of array-2 which is %d\n",n1,m2);
+    printf("Multiplication can't be performed, columns of matrix-1 which is %d must be equal to rows of matrix-2 which is %d\n",n1,m2);
     return 1;
     }
     else if(m1>9 || n1>9 || m2>9 || n2>9) {
