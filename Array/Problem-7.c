@@ -5,17 +5,17 @@
 int main() {
 
     int m1,n1,m2,n2,m,n,i,j;
-    printf("Enter the no. of rows of array-1: ");
+    printf("Enter the no. of rows of matrix-1: ");
     scanf("%d",&m1);
-    printf("Enter the no. of columns of array-1: ");
+    printf("Enter the no. of columns of matrix-1: ");
     scanf("%d",&n1);
-    printf("Enter the no. of rows of array-2: ");
+    printf("Enter the no. of rows of matrix-2: ");
     scanf("%d",&m2);
-    printf("Enter the no. of columns of array-2: ");
+    printf("Enter the no. of columns of matrix-2: ");
     scanf("%d",&n2);
 
     if(m1!=m2 && n1!=n2) {
-        printf("Addition can't be performed, the dimensions should be same for both arrays");
+        printf("Addition can't be performed, the dimensions should be same for both matrix");
         return 1;
     }
     else {
@@ -25,21 +25,21 @@ int main() {
 
     int a[m][n],b[m][n],c[m][n];
     
-    printf("\nEnter elements of array-1:\n");
+    printf("\nEnter elements of matrix-1:\n");
     for(i=0;i<m;i++) {
         for(j=0;j<n;j++) {
             scanf("%d",&a[i][j]);
         }
     }
 
-    printf("\nEnter elements of array-2:\n");
+    printf("\nEnter elements of matrix-2:\n");
     for(i=0;i<m;i++) {
         for(j=0;j<n;j++) {
             scanf("%d",&b[i][j]);
         }
     }
 
-    printf("\nThe array-1 is:\n");
+    printf("\nThe matrix-1 is:\n");
     for(i=0;i<m;i++) {
         for(j=0;j<n;j++) {
             printf("%d\t",a[i][j]);
@@ -47,7 +47,7 @@ int main() {
         printf("\n");
     }
 
-    printf("\nThe array-2 is:\n");
+    printf("\nThe matrix-2 is:\n");
     for(i=0;i<m;i++) {
         for(j=0;j<n;j++) {
             printf("%d\t",a[i][j]);
@@ -55,7 +55,7 @@ int main() {
         printf("\n");
     }
 
-    printf("\nThe resultant array is:\n");
+    printf("\nThe resultant matrix is:\n");
     for(i=0;i<m;i++) {
         for(j=0;j<n;j++) {
             c[i][j] = a[i][j] + b[i][j];
