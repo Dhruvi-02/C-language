@@ -7,7 +7,7 @@ int main() {
 
     char str[50],temp[50];
     int len,i;
-    puts("Enter the string: ");
+    puts("Enter the string:");
     gets(str);
 
     len = strlen(str);
