@@ -1,4 +1,4 @@
-# This folder contains string concept codes of C Programming Language
+# This folder contains string concept related codes of C Programming Language
 
 A string is a sequence of characters that is treated as a single data item. Any group of characters(except double quote sign) defined between double quotation marks is a string constant.
 
