@@ -15,7 +15,7 @@ int main() {
         }
     }
 
-    printf("The total words in string are: %d",count+1);
+    printf("\nThe total words in string are: %d",count+1);
 
     return 0;
 }
