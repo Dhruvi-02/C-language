@@ -18,7 +18,7 @@ int main() {
         }
     }
 
-    printf("%c has occurred %d times in the string",target,count);
+    printf("\n%c has occurred %d times in the string",target,count);
 
     return 0;
 }
