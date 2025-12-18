@@ -22,9 +22,9 @@ int main() {
         }
     }
 
-    printf("%d characters appear in the input string",ch);
-    printf("%d digits appear in the input string",digits);
-    printf("%d Special characters appear in the input string",sp_ch);
+    printf("\n%d characters appear in the input string",ch);
+    printf("\n%d digits appear in the input string",digits);
+    printf("\n%d Special characters appear in the input string",sp_ch);
 
     return 0;
 }
