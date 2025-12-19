@@ -1,4 +1,4 @@
-//Program to Bubble Sort string
+//Program to Bubble Sort strings
 
 #include<stdio.h>
 #include<string.h>
