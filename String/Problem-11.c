@@ -1,4 +1,4 @@
-//Program to sort a string
+//Program to sort a string 
 
 #include<stdio.h>
 #include<string.h>
