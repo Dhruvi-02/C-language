@@ -25,7 +25,7 @@ int main() {
 
     temp[i] = '\0';
 
-    printf("The uppercase string is: %s",temp);
+    printf("The uppercase of input string is: %s",temp);
 
     return 0;
 }
