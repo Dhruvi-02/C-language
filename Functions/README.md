@@ -11,6 +11,7 @@
 - Modular Programming: It is defined as organizing a large program into small, independent program segments called modules that are separately named and individually callable program units (divide-and-conquer approach to problem solving).
 
     Characteristics of Modular Programming:
+    
     1. Each module should do only one thing.
     2. Communication between modules is allowed only by a calling module.
     3. A module can be called by one and one higher module.
