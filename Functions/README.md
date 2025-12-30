@@ -35,11 +35,11 @@
     5. function statements
     6. a return statement
 
-* All the six elements are grouped into two parts:
+- All the six elements are grouped into two parts:
     1. function header(First three elements)
     2. function body(Second three elements)
 
-* function_type function_name(parameter list)<br>
+- function_type  function_name(parameter list)<br>
     {<br>
     &nbsp;&nbsp;&nbsp;&nbsp;local variable declaration;<br>
     &nbsp;&nbsp;&nbsp;&nbsp;executable statement1;<br>
@@ -48,3 +48,16 @@
     &nbsp;&nbsp;&nbsp;&nbsp;. . . . .<br>
     &nbsp;&nbsp;&nbsp;&nbsp;return statement;<br>
     }
+
+- The function body contains the declarations and statements necessary for performing the required task. The body enclosed in braces, contains three parts, in the order given as follows:
+
+    1. Local declarations that specify the variables needed by the function.
+    2. Function statements that perform the task of the function.
+    3. A return statement that returns the value evaluated by the function.
+
+- Parameters(also known as arguments) are used in following three places:
+    1. in declaration(prototypes)
+    2. in function call
+    3. in function definition
+
+- The parameters used in prototypes and function definitions are called formal parameters and those used in function calls are called actual parameters. Actual parameters used in a calling statement may be simple constants, variables and expressions. The formal and actual parameters must match exactly in type, order and number. Their names, however, do not need to match.
