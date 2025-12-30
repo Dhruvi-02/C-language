@@ -34,16 +34,17 @@
     4. local variable declarations
     5. function statements
     6. a return statement
-All the six elements are grouped into two parts:
-1. function header(First three elements)
-2. function body(Second three elements)
 
-function_type function_name(parameter list) 
-{
-    local variable declaration;
-    executable statement1;
-    executable statement2;
-    . . . . .
-    . . . . .
-    return statement;
-}
+    - All the six elements are grouped into two parts:
+    1. function header(First three elements)
+    2. function body(Second three elements)
+
+    - function_type function_name(parameter list) 
+      {
+          local variable declaration;
+          executable statement1;
+          executable statement2;
+          . . . . .
+          . . . . .
+          return statement;
+      }
