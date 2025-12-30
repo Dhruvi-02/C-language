@@ -26,3 +26,24 @@
     1. Function definition: An independent program module that is specially written to implement the requirements of the function.
     2. Function call: Used to invoke the function at a required place in the program.
     3. Function declaration: The calling program should declare any function(like declaration of a variable) that is to be used later in the program.
+
+- A function definition also known as function implementation include the following elements:
+    1. function name
+    2. function type
+    3. list of parameters
+    4. local variable declarations
+    5. function statements
+    6. a return statement
+All the six elements are grouped into two parts:
+1. function header(First three elements)
+2. function body(Second three elements)
+
+function_type function_name(parameter list) 
+{
+    local variable declaration;
+    executable statement1;
+    executable statement2;
+    . . . . .
+    . . . . .
+    return statement;
+}
