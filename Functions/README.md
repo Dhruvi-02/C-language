@@ -39,12 +39,12 @@
     1. function header(First three elements)
     2. function body(Second three elements)
 
-- function_type function_name(parameter list) 
-    {
-        local variable declaration;
-        executable statement1;
-        executable statement2;
-        . . . . .
-        . . . . .
-        return statement;
+- function_type function_name(parameter list)<br>
+    {<br>
+        local variable declaration;<br>
+        executable statement1;<br>
+        executable statement2;<br>
+        . . . . .<br>
+        . . . . .<br>
+        return statement;<br>
     }
