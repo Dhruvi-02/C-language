@@ -41,8 +41,8 @@
 
 * function_type function_name(parameter list)<br>
     {<br>
-        local variable declaration;<br>
-        executable statement1;<br>
+    &nbsp;local variable declaration;<br>
+    &nbsp;executable statement1;<br>
         executable statement2;<br>
         . . . . .<br>
         . . . . .<br>
