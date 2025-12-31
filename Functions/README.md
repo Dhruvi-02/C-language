@@ -61,3 +61,10 @@
     3. in function definition
 
 - The parameters used in prototypes and function definitions are called formal parameters and those used in function calls are called actual parameters. Actual parameters used in a calling statement may be simple constants, variables and expressions. The formal and actual parameters must match exactly in type, order and number. Their names, however, do not need to match.
+
+- Category of Functions:
+    1. Functions with no arguments and no return values
+    2. Functions with arguments and no return values
+    3. Functions with arguments and one return value
+    4. Functions with no arguments but a return value
+    5. Functions that return multiple values
