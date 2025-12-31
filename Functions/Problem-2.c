@@ -5,8 +5,9 @@
 void value(void);
 void printLine(void);
 
-main() {
+int main() {
     value();
+    return 0;
 }
 
 void value(void) {
