@@ -78,5 +78,5 @@
 - The variables declared inside a function are known as local variables and therefore their values are local to the function and cannot be accessed by any other function.
 
 - The ANSI standard proposes new symbol called the ellipsis to handle functions having variable number of arguments and data types which cannot be known at compile time. The ellipsis consists of three periods (...).
-example: double area(int num,...)
+example: double area (int num,...)
 - Both the function declaration and definition should use ellipsis to indicate that the arguments are arbitrary both in number and type. 
