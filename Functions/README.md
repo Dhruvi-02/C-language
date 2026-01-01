@@ -68,3 +68,15 @@
     3. Functions with arguments and one return value
     4. Functions with no arguments but a return value
     5. Functions that return multiple values
+
+- In case the actual arguments are more than the formal arguments, the extra actual arguments are discarded.On the other hand, if the actual arguments are less than the formal arguments, the unmatched formal arguments are initialized to some garbage values. Any mismatch in data type may also result in passing of garbage values. No error message will get generated in such cases.
+
+- While the formal arguments must be a valid variable names, the actual arguments may be variable names, expressions or constants. The variables used in actual arguments must be assigned values before the function call is made.
+
+- When a function call is made, only a copy of the values of actual arguments is passed into the called function. What occurs inside the function will have no effect on the variables used in the actual argument list.
+
+- The variables declared inside a function are known as local variables and therefore their values are local to the function and cannot be accessed by any other function.
+
+- The ANSI standard proposes new symbol called the ellipsis to handle functions having variable number of arguments and data types which cannot be known at compile time. The ellipsis consists of three periods (...).
+example: double area(int num,...)
+- Both the function declaration and definition should use ellipsis to indicate that the arguments are arbitrary both in number and type. 
