@@ -83,6 +83,22 @@ example: double area (int num,...)
 
 - Recursion: Recursion is when a function calls itself to solve a smaller version of the same problem.
 
-    * It has two mandatory parts:
-    1. Base Case: The condition that stops the recursion. Without this, the program enters an infinte loop and crashes(a Stack Overflow).
+    - It has two mandatory parts:
+    1. Base Case: The condition that stops the recursion. Without this, the program enters an infinte loop and crashes(a Stack Overflow). It acts as the "exit strategy".
     2. Recursive Step: The function calls itself with a "reduced" argument, moving the problem closer to the base case.
+
+- Types of recursion: 
+(There are no fixed number of total types of recursion but these are basic six types)
+1. Linear recursion: A function calls itself only once in each call
+2. Head recursion: Work happens before recursive call
+3. Tail recursion: Work happens after recursive call
+4. Tree recursion: Function calls itself multiple times
+5. Indirect recursion: Two or more functions call each other recursively
+6. Nested recursion: A recursive call is made inside the argument of another recursive call
+(One line memory trick: LHTTIN)
+
+- The Execution Stack: Recursion relies on the Call Stack.When a function calls itself, the computer dosen't finish the first call immediately. Instead, it "pauses" the current execution and adds a new layer to the Call Stack.
+1. Winding: The stack grows as the function calls itself repeatedly.
+2. Unwinding: Once the base case is reached, the functions begin returning the values back up the chain and the stack shrinks until the final result is calculated.
+
+
