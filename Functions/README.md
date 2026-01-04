@@ -87,14 +87,14 @@ example: double area (int num,...)
     1. Base Case: The condition that stops the recursion. Without this, the program enters an infinte loop and crashes(a Stack Overflow). It acts as the "exit strategy".
     2. Recursive Step: The function calls itself with a "reduced" argument, moving the problem closer to the base case.
 
-- Types of recursion: 
+- Types of recursion: <br>
 (There are no fixed number of total types of recursion but these are basic six types)
 1. Linear recursion: A function calls itself only once in each call
 2. Head recursion: Work happens before recursive call
 3. Tail recursion: Work happens after recursive call
 4. Tree recursion: Function calls itself multiple times
 5. Indirect recursion: Two or more functions call each other recursively
-6. Nested recursion: A recursive call is made inside the argument of another recursive call
+6. Nested recursion: A recursive call is made inside the argument of another recursive call <br>
 (One line memory trick: LHTTIN)
 
 - The Execution Stack: Recursion relies on the Call Stack.When a function calls itself, the computer dosen't finish the first call immediately. Instead, it "pauses" the current execution and adds a new layer to the Call Stack.
