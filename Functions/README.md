@@ -89,12 +89,12 @@ example: double area (int num,...)
 
 - Types of recursion: <br><br>
 (There are no fixed number of total types of recursion but these are basic six types)
-1. Linear recursion: A function calls itself only once in each call
-2. Head recursion: Work happens before recursive call
-3. Tail recursion: Work happens after recursive call
-4. Tree recursion: Function calls itself multiple times
-5. Indirect recursion: Two or more functions call each other recursively
-6. Nested recursion: A recursive call is made inside the argument of another recursive call <br><br>
+    1. Linear recursion: A function calls itself only once in each call
+    2. Head recursion: Work happens before recursive call
+    3. Tail recursion: Work happens after recursive call
+    4. Tree recursion: Function calls itself multiple times
+    5. Indirect recursion: Two or more functions call each other recursively
+    6. Nested recursion: A recursive call is made inside the argument of another recursive call <br><br>
 (One line memory trick: LHTTIN)
 
 - The Execution Stack: Recursion relies on the Call Stack.When a function calls itself, the computer dosen't finish the first call immediately. Instead, it "pauses" the current execution and adds a new layer to the Call Stack.
