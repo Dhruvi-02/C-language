@@ -80,3 +80,9 @@
 - The ANSI standard proposes new symbol called the ellipsis to handle functions having variable number of arguments and data types which cannot be known at compile time. The ellipsis consists of three periods (...).
 example: double area (int num,...)
 - Both the function declaration and definition should use ellipsis to indicate that the arguments are arbitrary both in number and type. 
+
+- Recursion: Recursion is when a function calls itself to solve a smaller version of the same problem.
+
+    - It has two mandatory parts:
+    1. Base Case: The condition that stops the recursion. Without this, the program enters an infinte loop and crashes(a Stack Overflow).
+    2. Recursive Step: The function calls itself with a "reduced" argument, moving the problem closer to the base case.
