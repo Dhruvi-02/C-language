@@ -105,4 +105,13 @@ example: double area (int num,...)
 
 - The function goes forward by calling itself until the base case is reached and then it returns back step by step returning calculated value at each step. This process is known as Backtracking and it continues till the stack is empty. 
 
+- In C, the name of the array represents the address of its first element. By passing array name, we are in fact passing the address of the array to the called function. The array in the called function now refers to the same array stored in memory. Therefore, any changes in the array in the called function will be reflected in the original array. Passing addresses of parameters to the functions is referred to as pass by address(or pass by pointers).
+
+- Three rules to pass an array to a function:
+1. The function must be called by passing only the name of the array.
+2. In the function definition, the formal parameter must be an array type; the size of the array does not need to be specified.
+3. The function prototype must show that the argument is an array.
+
+- If a function changes the values of the elements of an array, then these changes will be made to the original array that passed to the function. When an entire array is passed as an argument, the contents of the array are not copied into the formal parameter array; instead, information about the addresses of array elements are passed on to the function. Therefore, any changes introduced to the array elements are truly reflected in the original array in the calling function. However, this does not apply when an individual element is passed on as argument. 
+
 
