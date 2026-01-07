@@ -99,10 +99,10 @@ example: double area (int num,...)
 
 - Recursion are internally implemented using a data structure called stack. A stack is a linear arrangement of items where the last item entered is the first to be taken out, i.e., Last-In-First-Out or LIFO. A stack is manipulated using two functions, a push operation through which an item is put on the top of the stack and a pop operation by which the topmost item of stack is removed.
 
-- The Execution Stack: Recursion relies on the Call Stack.When a function calls itself, the computer dosen't finish the first call immediately. Instead, it "pauses" the current execution and adds a new layer to the Call Stack.
+- The Execution Stack: Recursion relies on the Call Stack. When a function calls itself, the computer dosen't finish the first call immediately. Instead, it "pauses" the current execution and adds a new layer to the Call Stack.
 1. Winding: The stack grows as the function calls itself repeatedly.
 2. Unwinding: Once the base case is reached, the functions begin returning the values back up the chain and the stack shrinks until the final result is calculated.
 
-- The function goes forward by calling itself until the base case is reached and then it returns back step by step returning calculated value at each step. This process s known as Backtracking and it continues till the stack is empty. 
+- The function goes forward by calling itself until the base case is reached and then it returns back step by step returning calculated value at each step. This process is known as Backtracking and it continues till the stack is empty. 
 
 
