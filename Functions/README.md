@@ -114,4 +114,6 @@ example: double area (int num,...)
 
 - If a function changes the values of the elements of an array, then these changes will be made to the original array that passed to the function. When an entire array is passed as an argument, the contents of the array are not copied into the formal parameter array; instead, information about the addresses of array elements are passed on to the function. Therefore, any changes introduced to the array elements are truly reflected in the original array in the calling function. However, this does not apply when an individual element is passed on as argument. 
 
+- Searching is an operation that is used when a look-up needs to be conducted on a set of data to locate a particular element. Linear search and Binary search are two most popular searching techniques.
+
 
