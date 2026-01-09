@@ -118,4 +118,12 @@ example: double area (int num,...)
 
 - Sorted array is mandatory for Binary Search whereas it is not mandatory for array to be sorted for Linear Search. 
 
+- Sorting is an operation that is needed to arrange the data set in a specified order.
+
+- The rules for passing multi-dimensional arrays to functions:
+1. The function must be called by passing only the array name.
+2. In the function definition, we must indicate that the array has two-dimensions by including two sets of brackets.
+3. The size of the second dimension must be specified.
+4. The prototype declaration should be similar to the function header.  
+
 
