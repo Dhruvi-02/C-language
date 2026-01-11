@@ -124,6 +124,13 @@ example: double area (int num,...)
 1. The function must be called by passing only the array name.
 2. In the function definition, we must indicate that the array has two-dimensions by including two sets of brackets.
 3. The size of the second dimension must be specified.
-4. The prototype declaration should be similar to the function header.  
+4. The prototype declaration should be similar to the function header.
+
+- The strings are treated as character arrays in C and therefore the rules for passing strings to functions are very similar to those for passing arrays to functions.
+
+- Basic rules are:
+1. The string to be passed must be declared as a formal argument of the function when it is defined.
+2. The function prototype must show that the argument is a string. 
+3. A call to the function must have a string array name without subscripts as its actual argument. 
 
 
