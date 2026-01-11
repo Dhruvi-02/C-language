@@ -131,6 +131,20 @@ example: double area (int num,...)
 - Basic rules are:
 1. The string to be passed must be declared as a formal argument of the function when it is defined.
 2. The function prototype must show that the argument is a string. 
-3. A call to the function must have a string array name without subscripts as its actual argument. 
+3. A call to the function must have a string array name without subscripts as its actual argument.
 
+- Variables in C differ in behaviour from those in most other languages.
+
+- In C not only do all variables have a data type, they also have a storage class. The following variable storage classes are most relevent to functions:
+1. Local variables(Automatic variables)
+2. Global variables(External variables)
+3. Static variables
+4. Register variables
+
+- Scope, Visibility and Lifetime of Variables:
+1. Scope: The scope of variable determines over what region of the program a variable is actually available for use ('active').
+2. Lifetime: Longevity refers to the period during which a variable retains a given value during execution of a program ('alive'). So longevity has a direct effect on the utility of a given variable.
+3. Visibility: The visibility refers to the accessibility of a variable from the memory.
+
+- The variables may also be broadly categorized, depending on the place of their declaration as internal(local) or external(global). Internal variables are those which are declared within a particular function, while external variables are declared outside of any function. 
 
