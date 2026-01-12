@@ -161,7 +161,7 @@ example: double area (int num,...)
 4. Register variables: We can tell the compiler that a variable should be kept in one of the machine's registers instead of keeping in the memory(where normal variables are stored). Since a register access is much faster than a memory access, keeping the frequently accessed variables(e.g. loop control variables) in the register will lead to faster execution of programs. Although, ANSI standard does not restrict its application to any particular data type, most compilers allow only int or char variables to be placed in the register. Since only a few variables can be placed in register, it is important to carefully select the variables for this purpose. However, C will automatically convert register variables into non-register variables once the limit is reached.  
 
 - Rules of use:
-    - The scope of a global variable is the entire program file.
+- The scope of a global variable is the entire program file.
     - The scope of a local variable begins at point of declaration and ends at the end of the block or function in which it is declared.
     - The scope of a formal function argument is its own function.
     - The lifetime(or longevity) of an auto variable declared in main is the entire program execution time, although its scope is only the main function.
