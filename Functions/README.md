@@ -161,11 +161,11 @@ example: double area (int num,...)
 4. Register variables: We can tell the compiler that a variable should be kept in one of the machine's registers instead of keeping in the memory(where normal variables are stored). Since a register access is much faster than a memory access, keeping the frequently accessed variables(e.g. loop control variables) in the register will lead to faster execution of programs. Although, ANSI standard does not restrict its application to any particular data type, most compilers allow only int or char variables to be placed in the register. Since only a few variables can be placed in register, it is important to carefully select the variables for this purpose. However, C will automatically convert register variables into non-register variables once the limit is reached.  
 
 - Rules of use:
-- The scope of a global variable is the entire program file.
-    - The scope of a local variable begins at point of declaration and ends at the end of the block or function in which it is declared.
-    - The scope of a formal function argument is its own function.
-    - The lifetime(or longevity) of an auto variable declared in main is the entire program execution time, although its scope is only the main function.
-    - The life of an auto variable declared in a function ends when the function is exited.
-    - A static local variable, although its scope is limited to its function, its lifetime extends till the end of program execution.
-    - All variables have visibility in their scope, provided they are not declared again.
-    - If a variable is redeclared within its scope again, it loses its visibility in the scope of the redeclared variables.  
+1. The scope of a global variable is the entire program file.
+2. The scope of a local variable begins at point of declaration and ends at the end of the block or function in which it is declared.
+3. The scope of a formal function argument is its own function.
+4. The lifetime(or longevity) of an auto variable declared in main is the entire program execution time, although its scope is only the main function.
+5. The life of an auto variable declared in a function ends when the function is exited.
+6. A static local variable, although its scope is limited to its function, its lifetime extends till the end of program execution.
+7. All variables have visibility in their scope, provided they are not declared again.
+8. If a variable is redeclared within its scope again, it loses its visibility in the scope of the redeclared variables.  
