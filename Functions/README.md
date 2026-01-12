@@ -142,9 +142,9 @@ example: double area (int num,...)
 4. Register variables
 
 - Scope, Visibility and Lifetime of Variables:
-1. Scope: The scope of variable determines over what region of the program a variable is actually available for use ('active').
-2. Lifetime: Longevity refers to the period during which a variable retains a given value during execution of a program ('alive'). So longevity has a direct effect on the utility of a given variable.
-3. Visibility: The visibility refers to the accessibility of a variable from the memory.
+1. Scope: The scope of variable determines over what region of the program a variable is actually available for use ('active'). The region of a program in which a variable is available for use.
+2. Lifetime: Longevity refers to the period during which a variable retains a given value during execution of a program ('alive'). So longevity has a direct effect on the utility of a given variable. The lifetime of a variable is the duration of time in which a variable exists in the memory during execution. 
+3. Visibility: The visibility refers to the accessibility of a variable from the memory. The program's ability to access a variable from memory.
 
 - The variables may also be broadly categorized, depending on the place of their declaration as internal(local) or external(global). Internal variables are those which are declared within a particular function, while external variables are declared outside of any function. 
 
