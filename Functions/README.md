@@ -162,6 +162,8 @@ example: double area (int num,...)
 
 - External Declaration: An extern within a function provides the type information to just that one function. We can provide type information to all functions within a file by placing external declarations before any of them. extern declaration does not allocate storage space for variables. In case of arrays, the definition should include their size as well.
 
+- The distinction between definition and declaration also applies to functions. A function is defined when its parameters and function body are specified. This tells the compiler to allocate space for the function code and provides type information for the parameters. Since functions are external by default, we declare them(in the calling functions) without qualifier extern. Therefore, the declaration [void printLine(void);] is equivalent to [extern void printLine(void);]. Function declarations outside of any function behave the same way as variable declarations.
+
 - Rules of use:
 1. The scope of a global variable is the entire program file.
 2. The scope of a local variable begins at point of declaration and ends at the end of the block or function in which it is declared.
