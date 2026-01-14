@@ -160,6 +160,8 @@ example: double area (int num,...)
 
 4. Register variables: We can tell the compiler that a variable should be kept in one of the machine's registers instead of keeping in the memory(where normal variables are stored). Since a register access is much faster than a memory access, keeping the frequently accessed variables(e.g. loop control variables) in the register will lead to faster execution of programs. Although, ANSI standard does not restrict its application to any particular data type, most compilers allow only int or char variables to be placed in the register. Since only a few variables can be placed in register, it is important to carefully select the variables for this purpose. However, C will automatically convert register variables into non-register variables once the limit is reached.  
 
+- External Declaration: An extern within a function provides the type information to just that one function. We can provide type information to all functions within a file by placing external declarations before any of them. extern declaration does not allocate storage space for variables. In case of arrays, the definition should include their size as well.
+
 - Rules of use:
 1. The scope of a global variable is the entire program file.
 2. The scope of a local variable begins at point of declaration and ends at the end of the block or function in which it is declared.
