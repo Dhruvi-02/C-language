@@ -169,3 +169,5 @@ example: double area (int num,...)
 6. A static local variable, although its scope is limited to its function, its lifetime extends till the end of program execution.
 7. All variables have visibility in their scope, provided they are not declared again.
 8. If a variable is redeclared within its scope again, it loses its visibility in the scope of the redeclared variables.  
+
+- Nested Blocks: A set of statements enclosed in a set of braces is known as a block or a compound statement. All functions including the main use compound statement. A block can have its own declarations and other statements. It is also possible to have a block of such statements inside the body of a function or another block thus creating what is known as nested blocks.
