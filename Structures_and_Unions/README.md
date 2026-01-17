@@ -4,10 +4,10 @@
 
 - The general format of a structure definition is as follows:
 
-struct  tag_name <br>
+struct  &nbsp; tag_name <br>
 {<br>
-&nbsp;&nbsp;&nbsp;    data_type   member1;<br>
-&nbsp;&nbsp;&nbsp;    data_type   member2;<br>
-&nbsp;&nbsp;&nbsp;    ---------   -------<br>
-&nbsp;&nbsp;&nbsp;    ---------   -------<br>
+&nbsp;&nbsp;&nbsp;    data_type &nbsp; member1;<br>
+&nbsp;&nbsp;&nbsp;    data_type &nbsp; member2;<br>
+&nbsp;&nbsp;&nbsp;    --------- &nbsp; -------<br>
+&nbsp;&nbsp;&nbsp;    --------- &nbsp; -------<br>
 };
