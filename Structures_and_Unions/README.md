@@ -8,6 +8,6 @@ struct  &nbsp; tag_name <br>
 {<br>
 &nbsp;&nbsp;&nbsp;    data_type &nbsp; member1;<br>
 &nbsp;&nbsp;&nbsp;    data_type &nbsp; member2;<br>
-&nbsp;&nbsp;&nbsp;    --------- &nbsp; -------<br>
-&nbsp;&nbsp;&nbsp;    --------- &nbsp; -------<br>
+&nbsp;&nbsp;&nbsp;    --------- &nbsp;&nbsp; -------<br>
+&nbsp;&nbsp;&nbsp;    --------- &nbsp;&nbsp; -------<br>
 };
