@@ -6,8 +6,8 @@
 
 struct  tag_name <br>
 {<br>
-&nbsp;    data_type   member1;
-&nbsp;    data_type   member2;
-&nbsp;    ---------   -------
-&nbsp;    ---------   ------- <br>
+&nbsp;&nbsp;&nbsp;    data_type   member1;<br>
+&nbsp;&nbsp;&nbsp;    data_type   member2;<br>
+&nbsp;&nbsp;&nbsp;    ---------   -------<br>
+&nbsp;&nbsp;&nbsp;    ---------   -------<br>
 };
