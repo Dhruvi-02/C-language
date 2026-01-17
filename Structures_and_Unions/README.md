@@ -11,3 +11,10 @@ struct  &nbsp; tag_name <br>
 &nbsp;&nbsp;&nbsp;    --------- &nbsp;&nbsp;&nbsp;&nbsp; -------<br>
 &nbsp;&nbsp;&nbsp;    --------- &nbsp;&nbsp;&nbsp;&nbsp; -------<br>
 };
+
+The keyword struct declares a structure to hold the details of data fields, member1, member2, etc. These fields are called structure elements or members. Each member may belong to a different type of data. The name of the structure is called tag name. The tag name may be used subsequently to declare variables that have the tag's structure. Also, the above definition hasn't declare variables but it simply describes a format called template to represent information.
+
+In defining a structure following syntax should be noted:
+1. The template is terminated with a semicolon. 
+2. While the entire definition is considered as a statement, each member is declared independently for its name and type in a separate statement inside the template.
+3. The tag name can be used to declare structure variable of its type later in the program.
