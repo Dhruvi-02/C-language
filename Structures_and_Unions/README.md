@@ -23,3 +23,33 @@
 1. An array is a collection of related data elements of same type. Structure can have elements of different types.
 2. An array is a derived data type whereas a structure is a programmer-defined one.
 3. Any array behaves like a built-in data type. All we have to do is declare an array variable and use it. But in the case of a structure, first we have to design and declare a data structure before the variables of that type are declared and used.
+
+- After defining a structure format we can declare variables of that type. A structure variable declaration is similar to the declaration of variables of any other data types. It includes the following elements:
+1. The keyword struct
+2. The struture tag name
+3. List of variable names separated by commas
+4. A terminating semicolon
+
+struct tag_name member1,member2,member3;
+
+For example:<br>
+struct book <br>
+{<br>
+    &nbsp;&nbsp;&nbsp;    char &nbsp; title[20];<br>
+    &nbsp;&nbsp;&nbsp;    char &nbsp; author[20];<br>
+    &nbsp;&nbsp;&nbsp;    int &nbsp;&nbsp; pages;<br>
+    &nbsp;&nbsp;&nbsp;    float &nbsp;&nbsp; price<br>
+};<br>
+struct book book1,book2,book3;<br>
+
+The members of a structure themselves are not variables. They do not occupy any memory until they are associated with the structure variables such as book1. When the compiler comes across aa declaration statement, it reserves memory space for the structure variables. It is also allowed to combine both the structure definition and variables declaration in one statement.<br>
+
+struct book <br>
+{<br>
+    &nbsp;&nbsp;&nbsp;    char &nbsp; title[20];<br>
+    &nbsp;&nbsp;&nbsp;    char &nbsp; author[20];<br>
+    &nbsp;&nbsp;&nbsp;    int &nbsp;&nbsp; pages;<br>
+    &nbsp;&nbsp;&nbsp;    float &nbsp;&nbsp; price<br>
+} book1,book2,book3;<br>
+
+Also it is valid if we didn't write tag name in above declaration but that approach is not recommended for the simple reason that a structure without a tag name cannot be referenced from anywhere else.
