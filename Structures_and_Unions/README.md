@@ -30,26 +30,26 @@
 3. List of variable names separated by commas
 4. A terminating semicolon
 
-&nbsp;struct tag_name member1,member2,member3;
+&nbsp;&nbsp;struct tag_name member1,member2,member3;
 
-&nbsp;For example:<br>
-&nbsp;struct book <br>
-&nbsp;{<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; title[20];<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; author[20];<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    int &nbsp;&nbsp; pages;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    float &nbsp;&nbsp; price<br>
-&nbsp;};<br>
-&nbsp;struct book book1,book2,book3;<br>
+&nbsp;&nbsp;For example:<br>
+&nbsp;&nbsp;struct book <br>
+&nbsp;&nbsp;{<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; title[20];<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; author[20];<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    int &nbsp;&nbsp; pages;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    float &nbsp;&nbsp; price<br>
+&nbsp;&nbsp;};<br>
+&nbsp;&nbsp;struct book book1,book2,book3;<br>
 
-&nbsp;The members of a structure themselves are not variables. They do not occupy any memory until they are associated with the structure variables such as book1. When the compiler comes across aa declaration statement, it reserves memory space for the structure variables. It is also allowed to combine both the structure definition and variables declaration in one statement.<br>
+&nbsp;&nbsp;The members of a structure themselves are not variables. They do not occupy any memory until they are associated &nbsp;&nbsp;with the structure variables such as book1. When the compiler comes across aa declaration statement, it reserves &nbsp;&nbsp;memory space for the structure variables. It is also allowed to combine both the structure definition and &nbsp;&nbsp;variables declaration in one statement.<br>
 
-&nbsp;struct book <br>
-&nbsp;{<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; title[20];<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; author[20];<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    int &nbsp;&nbsp; pages;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;    float &nbsp;&nbsp; price<br>
-&nbsp;} book1,book2,book3;<br>
+&nbsp;&nbsp;struct book <br>
+&nbsp;&nbsp;{<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; title[20];<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    char &nbsp; author[20];<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    int &nbsp;&nbsp; pages;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    float &nbsp;&nbsp; price<br>
+&nbsp;&nbsp;} book1,book2,book3;<br>
 
-&nbsp;Also it is valid if we didn't write tag name in above declaration but that approach is not recommended for the simple reason that a structure without a tag name cannot be referenced from anywhere else.
+&nbsp;&nbsp;Also it is valid if we didn't write tag name in above declaration but that approach is not recommended for the &nbsp;&nbsp;simple reason that a structure without a tag name cannot be referenced from anywhere else.
