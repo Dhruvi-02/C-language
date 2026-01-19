@@ -18,3 +18,8 @@
     1. The template is terminated with a semicolon. 
     2. While the entire definition is considered as a statement, each member is declared independently for its name and type in a separate statement inside the template.
     3. The tag name can be used to declare structure variable of its type later in the program.
+
+- Both the arrays and structures are classified as structured data types as they provide a mechanism that enable us to access and manipulate data in a relatively easy manner. But they differ in a number of ways which are as follows:
+1. An array is a collection of related data elements of same type. Structure can have elements of different types.
+2. An array is a derived data type whereas a structure is a programmer-defined one.
+3. Any array behaves like a built-in data type. All we have to do is declare an array variable and use it. But in the case of a structure, first we have to design and declare a data structure before the variables of that type are declared and used.
