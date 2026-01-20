@@ -53,3 +53,21 @@ The members of a structure themselves are not variables. They do not occupy any 
 &nbsp;&nbsp;} book1,book2,book3;<br>
 
 Also it is valid if we didn't write tag name in above declaration but that approach is not recommended for the simple reason that a structure without a tag name cannot be referenced from anywhere else.
+<<<<<<< HEAD
+=======
+
+- Type-Defined Structures: We can use the keyword typedef to define a structure as follows:<br>
+typedef  struct <br>
+{<br>
+    &nbsp;&nbsp;&nbsp;    type &nbsp; member1;<br>
+    &nbsp;&nbsp;&nbsp;    type &nbsp; member2;<br>
+    &nbsp;&nbsp;&nbsp;    . . . . . . . . . 
+    &nbsp;&nbsp;&nbsp;    . . . . . . . . .
+} type_name;<br>
+
+The type_name represents structure definition associated with it and therefore, can be used to declare structure variables as shown below:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; type_name variable1,variable2,.......;<br>
+
+1. The name type_name is the type definition name, not a variable.
+2. We cannot define a variable with typedef declaration.
+>>>>>>> 62ac326 (Writing description of Type-Defined Structures in Readme file)
