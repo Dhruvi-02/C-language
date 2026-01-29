@@ -53,11 +53,6 @@ The members of a structure themselves are not variables. They do not occupy any 
 &nbsp;&nbsp;} book1,book2,book3;<br>
 
 Also it is valid if we didn't write tag name in above declaration but that approach is not recommended for the simple reason that a structure without a tag name cannot be referenced from anywhere else.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> edf48b9e02b93685c68c99836e9f78b2af4335a3
 
 - Type-Defined Structures: We can use the keyword typedef to define a structure as follows:<br>
 typedef  struct <br>
@@ -73,13 +68,10 @@ The type_name represents structure definition associated with it and therefore, 
 
 1. The name type_name is the type definition name, not a variable.
 2. We cannot define a variable with typedef declaration.
-<<<<<<< HEAD
 
 - We can access and assign values to the members of a structure in a number of ways. The members themselves are not variables. They should be linked to the structure variables in order to make them meaningful members. The link between member and variable is established using the member operator '.' which is also known as 'dot operator' or 'period operator'. For example, book1.price
 
 We can also assign values to the members of book1: example- book1.pages=250;
 
 We can also use scanf to give values through the keyboard: example- scanf("%d",&book1.pages);
-=======
->>>>>>> 62ac326 (Writing description of Type-Defined Structures in Readme file)
->>>>>>> edf48b9e02b93685c68c99836e9f78b2af4335a3
+
