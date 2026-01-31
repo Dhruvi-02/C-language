@@ -75,3 +75,14 @@ We can also assign values to the members of book1: example- book1.pages=250;
 
 We can also use scanf to give values through the keyboard: example- scanf("%d",&book1.pages);
 
+- A structure variable can be initialized at compile time.
+
+main() <br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;struct
+&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  weight;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float height;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;student = {60,180.75};
+}
