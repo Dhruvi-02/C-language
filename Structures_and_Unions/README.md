@@ -85,4 +85,30 @@ main() <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float height;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;}<br>
 &nbsp;&nbsp;&nbsp;&nbsp;student = {60,180.75};<br>
-}
+}<br>
+
+There is one-to-one correspondence between the members and their initializing values. A lot of variation is possible in initialising a structure.
+
+main() <br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;struct stu_record<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  weight;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float height;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;student stu_record= {60,180.75};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;student stu_record= {70,170};<br>
+}<br>
+
+<br><br>
+
+struct stu_record<br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int weight;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float height;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;student1 = {60,180.75};<br>
+}<br>
+main()<br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;struct stu_record student2= {50,190};<br>
+}<br>
