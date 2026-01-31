@@ -87,7 +87,7 @@ main() <br>
 &nbsp;&nbsp;&nbsp;&nbsp;student = {60,180.75};<br>
 }<br>
 
-There is one-to-one correspondence between the members and their initializing values. A lot of variation is possible in initialising a structure.
+There is one-to-one correspondence between the members and their initializing values. A lot of variation is possible in initializing a structure.
 
 main() <br>
 {<br>
@@ -112,3 +112,11 @@ main()<br>
 {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;struct stu_record student2= {50,190};<br>
 }<br>
+
+C language does not permit the initialization of individual structure members within the template. The initialization must be done only in the declaration of the actual variables. The compile-time initialization of a structure variable must have the following elements:
+1. The keyword struct.
+2. The structure tag name.
+3. The name of the variable to be declared.
+4. The assignment operator =.
+5. A set of values for the members of the structure variable, separated by commas and enclosed in braces.
+6. A terminating semicolon. 
