@@ -100,7 +100,8 @@ main() <br>
 &nbsp;&nbsp;&nbsp;&nbsp;student stu_record= {70,170};<br>
 }<br>
 
-<br><br>
+********************************************************************
+<br>
 
 struct stu_record<br>
 {<br>
