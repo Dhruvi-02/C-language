@@ -81,8 +81,8 @@ main() <br>
 {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;struct<br>
 &nbsp;&nbsp;&nbsp;&nbsp;{<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  weight;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float height;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  weight;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float height;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;}<br>
 &nbsp;&nbsp;&nbsp;&nbsp;student = {60,180.75};<br>
 }
