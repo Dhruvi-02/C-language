@@ -122,3 +122,11 @@ C language does not permit the initialization of individual structure members wi
 4. The assignment operator =.
 5. A set of values for the members of the structure variable, separated by commas and enclosed in braces.
 6. A terminating semicolon. 
+
+- There are few rules to keep in mind while initializing structure variables at compile-time which are as follows:
+1. We cannot initialize individual members inside the structure template.
+2. The order of values enclosed in braces must match the order of members in the structure definition.
+3. It is permitted to have a partial initialization. We an initialize only the first few members and leave remaining blank. The uninitialized members should be only at the end of the list.
+4. The uninitialized members will be assigned default values as follows:
+    - Zero for integer and floating point numbers.
+    - '\0' for characters and strings.
