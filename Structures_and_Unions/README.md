@@ -89,6 +89,8 @@ main() <br>
 
 There is one-to-one correspondence between the members and their initializing values. A lot of variation is possible in initializing a structure.
 
+***********************************************************************************
+
 main() <br>
 {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;struct stu_record<br>
