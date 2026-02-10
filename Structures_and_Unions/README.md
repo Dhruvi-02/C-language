@@ -130,3 +130,5 @@ C language does not permit the initialization of individual structure members wi
 4. The uninitialized members will be assigned default values as follows:
     - Zero for integer and floating point numbers.
     - '\0' for characters and strings.
+
+- Two variables of the same structure type can be copied the same way as ordinary variables. If book1 and book2 belong to the same structure then book1=book2; book2=book1; is valid. However, book1==book2; book1!=book2; are not permitted. C does permit any logical operation on structure vriables. Instead, we need to compare them and we may do so by comparing members individually.
