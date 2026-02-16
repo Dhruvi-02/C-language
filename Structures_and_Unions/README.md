@@ -134,3 +134,21 @@ C language does not permit the initialization of individual structure members wi
 - Two variables of the same structure type can be copied the same way as ordinary variables. If book1 and book2 belong to the same structure then book1=book2; book2=book1; is valid. However, book1==book2; book1!=book2; are not permitted. C does permit any logical operation on structure vriables. Instead, we need to compare them and we may do so by comparing members individually.
 
 - Computer stores structures using the concept of "word boundary". The size of a word boundary is machine dependent. In a computer with two bytes word boundary, the members of a structure are stored left-aligned on a word boundary. A character data takes one byte and an integer takes two bytes. One byte between them is left unoccupied. This unoccupied byte is known as the slack byte. When we declare structure variables each one of them may contain slack bytes and the values stored in such slack bytes are undefined. Due to this, even if members of two variables are equal, their structures do not necessarily compare equal. C therefore does not permit comparison of structures. However, we can design our own function that could compare individual members to decide whether the structures are equal or not.  
+
+- We can increment and decrement operators to numeric type members. For example, book1.pages ++; or ++ book1.pages; . The precedence of the member operator is higher than arithmetic and relational operators and therefore no parentheses are required.
+
+- Different ways of accessing structure members:<br>
+typedef &nbsp;&nbsp;struct<br>
+{
+    &nbsp;&nbsp;&nbsp;&nbsp;int &nbsp;&nbsp;x;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;int &nbsp;&nbsp;y;<br>
+}&nbsp;&nbsp;point;<br>
+point p, *ptr;<br>
+ptr = & p;<br><br>
+
+The identifier ptr is known as <b>pointer</b> that has been aasigned the address of the structure variable n. Now, the members can be accessed in the following three ways:<br>
+1. using dot notation: &nbsp;&nbsp;p.x<br>
+2. using indirection notation: &nbsp;&nbsp;(*ptr).x
+3. using selection notation: &nbsp;&nbsp;ptr -> x
+
+    
