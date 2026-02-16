@@ -77,6 +77,8 @@ We can also use scanf to give values through the keyboard: example- scanf("%d",&
 
 - A structure variable can be initialized at compile time.
 
+********************************************************************
+
 main() <br>
 {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;struct<br>
@@ -114,6 +116,8 @@ main()<br>
 {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;struct stu_record student2= {50,190};<br>
 }<br>
+
+********************************************************************
 
 C language does not permit the initialization of individual structure members within the template. The initialization must be done only in the declaration of the actual variables. The compile-time initialization of a structure variable must have the following elements:
 1. The keyword struct.
