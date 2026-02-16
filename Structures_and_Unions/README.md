@@ -139,7 +139,7 @@ C language does not permit the initialization of individual structure members wi
 
 - Different ways of accessing structure members:<br>
 typedef &nbsp;&nbsp;struct<br>
-{
+{<br>
     &nbsp;&nbsp;&nbsp;&nbsp;int &nbsp;&nbsp;x;<br>
     &nbsp;&nbsp;&nbsp;&nbsp;int &nbsp;&nbsp;y;<br>
 }&nbsp;&nbsp;point;<br>
