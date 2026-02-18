@@ -155,4 +155,6 @@ The identifier ptr is known as <b>pointer</b> that has been aasigned the address
 2. using indirection notation: &nbsp;&nbsp;(*ptr).x
 3. using selection notation: &nbsp;&nbsp;ptr -> x
 
+- We can define an array of structure as: struct class student[100]; . Each element is defined to be of type struct class. An array of structures is stored inside the memory in the same way as a multi-dimensional array.
+
     
